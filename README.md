@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 # EWB Student CRUD API
 
@@ -60,3 +61,6 @@ Open http://127.0.0.1:8000/docs
 | DELETE | /students/{student_id} | Delete a student |
 
 Use fictional student data for testing.
+=======
+# ewb-student-crud
+>>>>>>> b74d407eca3bdba4b3f37d42f271759a9c2385e2
