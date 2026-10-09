@@ -2,6 +2,12 @@
 
 A student record management backend built using Python, FastAPI, and SQLite for the EWB Python Backend Development Internship Project.
 
+## Live Links
+
+- **Live API:** https://ewb-student-crud.onrender.com
+- **Interactive API Documentation (Swagger):** https://ewb-student-crud.onrender.com/docs
+- **GitHub Repository:** https://github.com/shankar-uxcloud/ewb-student-crud
+
 ## Features
 
 - Create student records
@@ -44,9 +50,13 @@ py -m uvicorn main:app --reload
 
 ## API Documentation
 
-After starting the application, open:
+After starting the application locally, open:
 
 http://127.0.0.1:8000/docs
+
+For the deployed version, use:
+
+https://ewb-student-crud.onrender.com/docs
 
 ## Endpoints
 
@@ -57,5 +67,9 @@ http://127.0.0.1:8000/docs
 | GET | `/students/{student_id}` | Retrieve a student |
 | PATCH | `/students/{student_id}` | Update a student |
 | DELETE | `/students/{student_id}` | Delete a student |
+
+## Deployment Note
+
+This project is deployed on Render's free instance. The service may spin down after inactivity, and the local SQLite database may not persist through restarts or redeployments.
 
 **Note:** Use fictional student data for testing.
