@@ -1,10 +1,6 @@
-<<<<<<< HEAD
-
 # EWB Student CRUD API
 
-A student record management backend built using Python,
-FastAPI and SQLite for the EWB Python Backend Development
-Internship Project.
+A student record management backend built using Python, FastAPI, and SQLite for the EWB Python Backend Development Internship Project.
 
 ## Features
 
@@ -27,20 +23,20 @@ Internship Project.
 
 ## Setup
 
-Create and activate a virtual environment:
+### 1. Create and activate a virtual environment
 
 ```powershell
 py -m venv .venv
 .\.venv\Scripts\Activate.ps1
 ```
 
-Install dependencies:
+### 2. Install dependencies
 
 ```powershell
 py -m pip install -r requirements.txt
 ```
 
-Run the application:
+### 3. Run the application
 
 ```powershell
 py -m uvicorn main:app --reload
@@ -48,19 +44,18 @@ py -m uvicorn main:app --reload
 
 ## API Documentation
 
-Open http://127.0.0.1:8000/docs
+After starting the application, open:
+
+http://127.0.0.1:8000/docs
 
 ## Endpoints
 
 | Method | Endpoint | Purpose |
 |---|---|---|
-| POST | /students | Create a student |
-| GET | /students | List students |
-| GET | /students/{student_id} | Retrieve a student |
-| PATCH | /students/{student_id} | Update a student |
-| DELETE | /students/{student_id} | Delete a student |
+| POST | `/students` | Create a student |
+| GET | `/students` | List students |
+| GET | `/students/{student_id}` | Retrieve a student |
+| PATCH | `/students/{student_id}` | Update a student |
+| DELETE | `/students/{student_id}` | Delete a student |
 
-Use fictional student data for testing.
-=======
-# ewb-student-crud
->>>>>>> b74d407eca3bdba4b3f37d42f271759a9c2385e2
+**Note:** Use fictional student data for testing.
